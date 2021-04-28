@@ -34,6 +34,10 @@ main div figcaption {
     margin-bottom: 2rem;
 }
 
+main div figcaption:last-of-type {
+    transform: translate(100%, 100%), rotate(45deg);
+}
+
 footer {
     text-align: center;
     color: gray;
