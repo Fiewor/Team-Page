@@ -13,12 +13,12 @@ main, header {
     justify-content: space-between;
 }
 
-header {
-    margin-bottom: 2rem;
+header h1, header .description {
+    margin-top: 1rem;
 }
 
 header .description {
-    width: 30%;
+    width: 50%;
 }
 
 main div:nth-of-type(2) {
@@ -41,6 +41,7 @@ main div figcaption:last-of-type {
 footer {
     text-align: center;
     color: gray;
+    margin-top: 2rem;
 }
 
 footer a {
@@ -48,6 +49,22 @@ footer a {
     color: gray;
 }
 
-@media and screen (max-width: 736px;) {
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0 2rem;
+    }
 
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    header .description {
+        width: 80%;
+        font-size: 0.7rem;
+    }
+
+    main div img {
+        width: 100px;
+        height: 130px;
+    }
 }
